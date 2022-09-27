@@ -10,17 +10,19 @@ public class Problem05 {
         System.out.print("2nd double? ");
         double b = input.nextDouble();
 
-        double sum = a + b;
-        double sub = a - b;
-        double mul = a * b;
-        double div = a / b;
-        double rem = a % b;
+        double sum = a+b;
+        double sub = a-b;
+        double mul = a*b;
+        double div = a/b;
+        double rem = a%b;
 
         System.out.println(a + " + " + b + " = " + sum);
         System.out.println(a + " - " + b + " = " + sub);
         System.out.println(a + " * " + b + " = " + mul);
         System.out.println(a + " / " + b + " = " + div);
         System.out.println(a + " % " + b + " = " + rem);
+
+        //System.out.printf("%.4f +  %.4f = %.4f%n", a,b, sum);
 
 
     }
