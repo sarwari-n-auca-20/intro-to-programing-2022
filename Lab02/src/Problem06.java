@@ -6,6 +6,5 @@ public class Problem06 {
         double celsius = input.nextDouble();
         double fahrenheit = (9.0/5) * celsius + 32;
         System.out.println("celsius " + celsius + " is " +  fahrenheit + " in fahrenheit");
-
     }
 }
