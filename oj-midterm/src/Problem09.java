@@ -8,5 +8,6 @@ class Problem09 {
         if (h >= 1 & v <= Math.pow(10,2))
             if (h >= 1 & v <= Math.pow(10,2))
         System.out.printf("%.2f%n", v);
+
     }
 }
