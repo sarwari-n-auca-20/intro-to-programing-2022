@@ -7,11 +7,10 @@ public class Problem08 {
         int N = input.nextInt();
         int T = input.nextInt();
         int M = input.nextInt();
-        if (N >=1 && N <= 500);
-        if (T >=1 && T <= 500);
-        if (M >=1 && M <= 500);
-        {   int AllDesigns = (N * T * M);
+        int AllDesigns = (N * T * M);
+        if (N >=1 && N <= 500)
+            if (T >=1 && T <= 500)
+                if (M >=1 && M <= 500)
             System.out.println(AllDesigns);
-        }
     }
 }
