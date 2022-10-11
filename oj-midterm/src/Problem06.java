@@ -12,6 +12,7 @@ public class Problem06 {
             if (length >= 1 && length <= 1000)
                 if (sideLength >= 1 && sideLength <= 1000)
         System.out.println(div * divLength);
+
     }
 }
 
