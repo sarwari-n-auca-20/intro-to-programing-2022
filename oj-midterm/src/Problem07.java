@@ -8,6 +8,5 @@ public class Problem07 {
         if (R1 >=-1000 && R1 <= 1000)
             if (S >=-1000 && S <= 1000)
         System.out.println(R2);
-
     }
 }
