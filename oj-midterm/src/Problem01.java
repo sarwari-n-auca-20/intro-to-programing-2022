@@ -4,6 +4,7 @@ public class Problem01 {
         Scanner scanner = new Scanner(System.in);
         String Hello = scanner.next();
         System.out.println(Hello + " " + Hello + " " + Hello);
+
     }
 }
 
