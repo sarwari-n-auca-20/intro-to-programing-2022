@@ -7,11 +7,11 @@ public class Problem02 {
         int a = input.nextInt();
         System.out.print("2nd value? ");
         int b = input.nextInt();
-        System.out.printf("Before swapping: a = %d, b = %d;%n", a, b);
+        System.out.printf("Before swapping: a = %d, b = %d%n", a, b);
         int c = a;
         a = b;
         b = c;
-        System.out.printf("After swapping: a = %d, b = %d;%n", a, b);
+        System.out.printf("After swapping: a = %d, b = %d%n", a, b);
 
     }
 }
