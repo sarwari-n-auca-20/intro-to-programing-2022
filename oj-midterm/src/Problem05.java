@@ -6,5 +6,6 @@ public class Problem05 {
         int small = input.nextInt();
         int left = (Big * 8) + (small * 3) -28;
         System.out.println(left);
+
     }
 }
