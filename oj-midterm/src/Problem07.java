@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Problem07 {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int R1 = input.nextInt();
