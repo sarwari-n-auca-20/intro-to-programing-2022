@@ -1,5 +1,6 @@
 import java.util.Scanner;
 class Problem09 {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double r = input.nextDouble();
