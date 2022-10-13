@@ -5,9 +5,9 @@ public class Problem07 {
         Scanner input = new Scanner (System.in);
         System.out.print("Enter the radius and length of a cylinder: ");
         double radius = input.nextDouble();
-        double lenght = input.nextDouble();
+        double length = input.nextDouble();
         double area = radius * radius * 3.14159;
-        double volume =  area * lenght;
+        double volume =  area * length;
         System.out.print("The area is ");
         System.out.printf("%.4f%n", area);
         System.out.print("The volume is ");
