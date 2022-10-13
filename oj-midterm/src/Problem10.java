@@ -7,7 +7,6 @@ public class Problem10 {
         if (v >= 1 && v <= Math.pow(10,9)){
             double t = (2 * v) / (9.8);
             System.out.printf("%.6f", t);
-
         }
     }
 }
