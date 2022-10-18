@@ -19,8 +19,7 @@ public class Problem10 {
         //int popInt5Year = (int) Math.round(POPULATION + yearlypopulationgrowth * 5);
         int popIntnYear = (int) Math.round(POPULATION + yearlypopulationgrowth * numberOfYears);
 
-        System.out.println(
-                        popIntnYear + "\n");
+        System.out.println("The population in 5 year is " + popIntnYear + "\n");
                         //popInt2Year + "\n" +
                         //popInt3Year + "\n" +
                         //popInt4Year + "\n" +
