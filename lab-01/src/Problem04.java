@@ -1,6 +1,5 @@
 import java.util.Random;
 import java.util.Scanner;
-
 public class Problem04 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -21,7 +20,5 @@ public class Problem04 {
         System.out.println(a + " * " + b + " = " + mul);
         System.out.println(a + " / " + b + " = " + div);
         System.out.println(a + " % " + b + " = " + rem);
-
-
     }
 }
