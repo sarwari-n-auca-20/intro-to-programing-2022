@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Problem04 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -17,7 +16,7 @@ public class Problem04 {
                 msg = "You are an experienced gamer.";
                 break;
             case 1:
-                msg = "You are a biginner.";
+                msg = "You are a beginner.";
                 break;
             case 0:
                 msg = "You are a total newbie.";
