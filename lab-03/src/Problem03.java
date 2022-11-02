@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Problem03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -23,11 +22,9 @@ public class Problem03 {
                 System.out.printf("The value %d is the greatest one%n", c);
             }
         }
-
-
         int maxValue = a;
         if (maxValue < b) {
-            maxValue = b ;
+            maxValue = b;
         }
         if (maxValue < c) {
             maxValue = c;
