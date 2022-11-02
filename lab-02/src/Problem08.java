@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Problem08 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -7,6 +6,5 @@ public class Problem08 {
         double pounds = input.nextDouble();
         double kilograms = 0.454 * pounds;
         System.out.println("pounds " + pounds + " is " + kilograms + " in kilograms");
-
     }
 }
