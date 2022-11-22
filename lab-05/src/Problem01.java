@@ -13,7 +13,7 @@ public class Problem01 {
             grade = input.nextInt();
         }
         if (nGrades != 0) {
-            System.out.printf("%.1f%n", sum / nGrades);
+            System.out.printf("The arithmetic mean is %.1f%n", sum / nGrades);
         } else {
             System.out.println("Nothing to calculate");
         }
