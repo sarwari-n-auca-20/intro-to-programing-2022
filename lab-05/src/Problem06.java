@@ -3,15 +3,18 @@ import java.util.Scanner;
 public class Problem06 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter an integer (the input ends if it is 0): ");
 
-        int n = input.nextInt();
         int sum = 0;
-
-        while (n != 0) {
-            sum += n;
-            ++n;
+        int value;
+        while (true) {
+            System.out.print("Enter an integer (the input ends if it is 0): ");
+            value = input.nextInt();
+            if (value == 0) {
+                break;
+            } else {
+                sum += value;
+            }
         }
-        System.out.println("The sum is " + sum);
+            System.out.println("The sum is " + sum);
     }
 }
